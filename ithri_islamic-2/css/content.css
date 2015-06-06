@@ -1,0 +1,349 @@
+/* --------- Hypertext links --------- */
+a {  font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+	background-color: transparent;
+	color:#556B2F;
+	text-decoration: none;
+}
+
+
+
+/* --------- Titles --------- */
+h1, h2, h3, h4, h5, h6 { 
+  margin: 					0em 0 0em 0;
+  line-height: 				1.2; 
+  font-weight: 				bold;
+  font-style: 				normal; 
+}
+h1 {
+	font-size: 1.4em;
+	font-weight: bold;
+	
+	
+}
+h2 {font-size: 1.2em;}
+h3 {
+	padding-bottom: 3px;
+	font-size: 1em;
+	
+}
+h4 {font-size: 1em;}
+h5 {font-size: .9em;}
+h6 {font-size: .8em;}
+
+/* --------- Images --------- */
+img {
+	position: relative;
+	border: 0; 
+}
+a img:hover, a img:focus {opacity:.5; filter: alpha(opacity=50);}
+
+
+
+/* hr */
+hr {
+  color: #ccc;
+  border: #ccc;
+  background: #ccc;
+  height: 1px;
+}
+
+
+
+
+table {
+	width: 100%;
+	text-align:left;
+}
+table td {
+	padding: 0;
+	vertical-align: top;
+	border-width: 0;  
+}
+th {
+	padding: 4px;
+	vertical-align: middle;
+	background-color: #3a3a3a;
+	color:#FFFFFF;
+}
+
+/* ===== other attributes of contents ===== */
+p {
+	margin-top: 			.5em;
+	margin-bottom:			.5em;
+}
+hr{
+	height: 				1px;
+	padding: 				0;
+	color: 					#ddd;
+	background-color: 		#ddd;
+	border: 				0;
+}
+
+/* ===== lists ===== */
+ol {
+	margin: 					.5em 0 .5em .4em;
+	padding: 					0;
+	list-style-type: 			decimal;
+	
+}
+ul {
+	
+	padding: 0;
+	list-style: 				decimal inside;
+	text-align: 				left;
+}
+li {
+	margin: 				    4px;
+	background-color: 			inherit;
+	color: 						#416B00;
+	line-height: 				1.4em;
+	list-style:					square inside;
+}
+dd {}
+dl {}
+dt {}
+dl { margin: .75em 0;} 
+dt { margin: .75em 0 0 0; font-weight: bold;} 
+dd { margin: .25em 0 .25em 2em; }
+
+legend {}
+
+input[type='submit'],input[type='button']{
+	background:url(../img/right.gif)  repeat-x ;
+	border:none;
+	padding: 3px;
+	color:white;
+
+}
+
+.outer {
+	padding: 2px;
+	
+}
+.head {
+    
+	background-color: #6E8B3D;
+	padding: 5px;
+	font-weight: bold;
+	
+}
+.even {
+	background-color: #F0E68C;
+	padding: 5px;
+	
+}
+.odd {
+	background-color: #FFFACD;
+	padding: 5px;
+	
+}
+.foot {
+	background-color: #fff;
+	padding: 5px;
+	font-weight: bold;
+	
+}
+tr .even td  {
+	background-color: #F0E68C;
+	padding: 5px;
+	
+	
+}
+tr.odd td {
+	background-color: #FFFACD;
+	padding: 5px;
+	
+}
+
+/* --------- Core messages --------- */
+.errorMsg {
+	background-color: #FFCCCC;
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid #B8860B;
+	border-left: 1px solid #B8860B;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	font-weight: bold;  
+}
+.confirmMsg {
+	background-color: #DDFFDF;
+	padding: 10px;
+	color: #136C99;  
+	text-align: center;
+	font-weight: bold; 
+	border-top: 1px solid #B8860B;
+	border-left: 1px solid #B8860B;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;   
+}
+.resultMsg {
+	background-color: #c1c1c1;
+	padding: 10px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;  
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;  
+}
+
+/* --------- Codes and Quotes --------- */
+.xoopsCode {
+	max-height: 200px;
+	margin: 6px;
+	background-color: #fafafa;
+	padding: 6px; 
+	overflow: auto;
+	color: #666;
+	font-family: Segoe UI, Tahoma, "Lucida Console", "courier new", monospace;
+	font-size: .9em; 
+	border: 1px solid #B8860B;
+	border-left:1px solid #B8860B; 
+}
+.xoopsQuote {
+	margin: 6px;
+	background: #fafafa url("../img/quote.gif") no-repeat 5px 10px;  
+	padding: 6px 6px 6px 40px;  
+	font-style: normal;
+	border: 1px solid #B8860B;
+	border-left: 2px solid #B8860B; 
+}
+
+/* --------- Articles --------- */
+.item {
+	margin-top: 20px;
+	
+     
+	
+}
+.itemHead {
+	
+	height: 20px;
+	padding-bottom:0px;
+   background:				url("../img/menu_bg.gif") repeat-x ;
+	
+	
+}
+.itemInfo { 
+	background-color: #F7F7F7;
+	padding: 3px;
+	text-align:right; 
+}
+.itemTitle {
+	color: #363636;   
+	padding-left:20px;
+    padding-top:1px; 	
+}
+.itemTitle a {
+	padding: 5px;
+	color: #363636;
+	text-decoration: none;
+	font-size:1.1em;
+	font-weight: bold;
+	
+	
+	
+	
+	
+}
+.itemPoster {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemPostDate {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemStats {
+	font-size: .9em;
+	font-style: normal; color:red;
+}
+.itemBody {
+padding-left : 3px;
+
+
+
+}
+.itemText {
+	color:#666666;
+	font-size:1.1em;
+	line-height:1.4em;
+	padding:10px;
+	
+	
+}
+.itemFoot {  
+	border: ; 
+	border-left: none; 
+	border-right: none; 
+	padding: 10px 10px; 
+	margin: 2px 0px 0px 10px; 
+	color: #597eb2 !important; 
+	text-align:center;
+
+	
+	
+	
+	
+}
+.itemAdminLink {
+    font-size: .9em;  color:red;
+   
+	
+}
+.itemPermaLink {
+    font-size: .9em; 
+	margin: 							0 20px 10px 0; 
+	padding: 						0 20px; 
+	padding-bottom:4px;	
+	color:     red;
+}
+
+/* --------- Forums and Comments --------- */
+.comTitle {
+	margin-bottom: 2px;
+	font-weight: bold;  
+}
+.comText {padding: 2px;}
+.comUserStat {
+	margin: 2px; 
+	background-color: #fff;
+	padding: 2px; 
+	font-size: .8em;
+	font-weight: ;
+	border: 1px solid #ccc;   
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {
+	margin-right: 2px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: .8em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText {
+	font-size: .9em;
+	font-weight: bold;
+}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {
+	font-weight: normal;
+	font-style: normal;
+	font-size: .9em;
+}  
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	font-size: .8em;
+}
+.signature {
+	font-size: .8em;
+	font-style: normal;
+}
+
+
+

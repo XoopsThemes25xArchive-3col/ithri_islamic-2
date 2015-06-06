@@ -1,0 +1,93 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn { 
+	width : 170px;
+	background: 				url("../img/content.gif") repeat-y; 
+}
+
+#xo-canvas-leftcolumn h3.xo-blocktitle {
+    background: 				url("../img/right.gif") repeat-x; 
+    color: #fff; 
+    font-size: 14px;
+    text-align: center;
+	font-weight: bold;  
+	padding:6px;
+	width : 168px;
+    
+}
+
+#xo-canvas-leftcolumn .xo-blockcontent { 
+	padding: 10px;
+	
+}
+
+
+
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {
+	width : 170px;
+	background: 				url("../img/rr.gif") repeat-y; 
+}
+#xo-canvas-rightcolumn h3.xo-blocktitle {
+    background: 				url("../img/left.gif") repeat-x; 
+    padding:6px;
+	color: #458B00; 
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	
+	
+}
+#xo-canvas-rightcolumn .xo-blockcontent { 
+	color:#B8860B;
+	padding: 10px;
+	
+	
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+  margin: 5px;
+ 
+
+ 
+ 
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-right: 20px;
+  color :#fff;
+  font-weight: bold;
+  background: 		url("../img/right.gif") repeat-x;
+  padding:6px; 
+  
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  text-align: justify;
+  
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;  }
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  padding:6px;
+  padding-right: 10px;
+  color: #fff;
+  font-weight: bold;
+  background: 		url("../img/right.gif") repeat-x;
+  
+   
+  
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 2px;
+  line-height: 1.3em;
+  text-align: justify;  
+}
+
+
+
+
